@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: hsl(180, 100%, 96%);
+}
+.container {
+  box-shadow: 0.2rem 0.2rem 1rem 1rem #00000023;
+  border-radius: 1rem;
+  overflow: hidden;
+  width: 60rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.community {
+  background-color: #fff;
+  padding: 3rem;
+  width: 100%;
+}
+.community-heading {
+  color: hsl(179, 62%, 43%);
+  font-weight: 700;
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+}
+.community-design {
+  color: hsl(71, 73%, 54%);
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.community-content {
+  color: hsl(218, 22%, 67%);
+}
+.payment {
+  background-color: hsl(179, 62%, 43%);
+  color: #fff;
+  padding: 3rem;
+  width: 50%;
+}
+.payment-heading {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.payment-design {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.money {
+  font-weight: 700;
+  font-size: 3rem;
+}
+.per-month {
+  padding-left: 1rem;
+  color: hsl(204, 43%, 93%);
+}
+.payment-content {
+  margin-bottom: 3rem;
+}
+.payment-btn {
+  border-radius: 0.5rem;
+  background-color: hsl(71, 73%, 54%);
+  text-align: center;
+  font-weight: 700;
+  padding: 1.5rem 0;
+  cursor: pointer;
+}
+.why-us {
+  background-color: hsl(179, 60%, 48%);
+  color: #fff;
+  padding: 3rem;
+  width: 50%;
+}
+.why-us-heading {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.why-us-content {
+  color: hsl(204, 43%, 93%);
+}
+.why-us-content ul {
+  list-style: none;
+}
+@media (max-width: 650px) and (min-width: 349px) {
+  .container {
+    width: 80%;
+    flex-direction: column;
+    margin: 10% 0;
+  }
+  .box {
+    width: 100%;
+  }
+}
+@media (max-width: 350px) {
+  html {
+    font-size: 50%;
+  }
+  .container {
+    width: 80%;
+    flex-direction: column;
+    margin: 10% 0;
+  }
+  .box {
+    width: 100%;
+  }
+}
